@@ -6,8 +6,8 @@
 
 #define GPIO_LED                2     
 #define GPIO_BUTTON             4    
-#define DEBOUNCE_DELAY_MS       20
-#define DEBOUNCE_DELAY_TICKS    pdTICKS_TO_MS(20) 
+#define DEBOUNCE_DELAY_MS       5
+#define DEBOUNCE_DELAY_TICKS    pdTICKS_TO_MS(DEBOUNCE_DELAY_MS) 
 
 void app_main(void)
 {
